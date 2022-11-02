@@ -41,7 +41,7 @@ $(function(){
         return false;
     })
     $(".btn-contact").click(function(){
-        $("html,body").animate({scrollTop:el2 -675},1000)
+        $("html,body").animate({scrollTop:el2 -600},1000)
         return false;
     })
     // ========================================================按鈕連結跳轉
