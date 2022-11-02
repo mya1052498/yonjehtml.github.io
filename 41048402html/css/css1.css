@@ -566,3 +566,363 @@ body{
     width: 100px;
 }
 /* ==================作品集的內容================== */
+
+
+
+
+@media screen and (max-width:420px){
+
+    .warpper{
+        width: 100%;
+    }
+
+    .top{
+        height: 160px;
+        box-sizing: border-box;
+        position: none;
+        z-index: 10;
+        padding: 10px 8vw;
+    }
+    
+    .top-logo img{
+        width: 15%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .top ul{
+        float: none;
+    }
+    
+    .top li{
+        float: left;
+        padding: 5px 5px;
+    }
+
+    .top li a{
+        font-size: 0.5vw;
+        padding: 0 1.6vw;
+        line-height: 15vw;
+    }
+    
+    /* ======================================== */
+    .index-main{
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        background-position: 50% 50%;
+        margin-top: 160px;
+        padding: 30px;
+    }
+    .index-text{
+        margin: 0;
+        text-align: center;
+        width: auto;
+        height: 50vw;
+    }
+    
+    .index-text img{
+        margin-top: 1.8vw;
+        width: 80px;
+        filter: invert(1);
+    }
+    .index-text h2{
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .index-text h1{
+        font-size: 20vw;
+        line-height: 18vw;
+    }
+    /* ============================ */
+    .about{
+        height: 250vw;
+        display: inline-block;
+        padding-top: 300px;
+        box-sizing: border-box;
+    }
+    
+    .about-left{
+        max-width: 400px;
+        width: 90vw;
+        margin: 0 20px;
+        /* position: relative;
+        width: 800px;
+        height: 0;
+        padding-bottom: 56.25%; */
+    }
+    .about-bgv{
+        border: 10px solid #e5e5e5;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 00px 00px 10px #000000;
+        width: 90%;
+        /* position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%; */
+    }
+    
+    .about-right{
+        font-weight: bolder;
+        margin-left: 5.2vw;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* ======================================== */
+
+    .contact{
+        background-color: black;
+        color: #e5e5e5;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 300px;
+        /* border-top: 1px solid #e5e5e5; */
+    }
+    
+    .contact-left{
+        width: 43vw;
+        height: 250px;
+    }
+    
+    .contact-left h5{
+        font-size: 10vw;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .contact-left h6{
+        text-align: center;
+        font-size: 3vw;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .contact-left ul{}
+    
+    .contact-left li {
+        float: left;
+        overflow: hidden;
+        margin-right: 14px;
+    }
+    
+    .contact-left a{}
+    
+    .contact-right{
+        text-align: center;
+        padding-top: 43px;
+    }
+    
+    .contact-right h5{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+    
+    .contact-right a{
+        display: inline-block;
+        width: 150px;
+        border-radius: 50px;
+        color: rgb(101, 101, 101);
+        background-color: #e5f3d7;
+        font-weight: bolder;
+        font-size: 14px;
+    }
+
+    /* .contact-left li {
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    } */
+
+    /* ======================================= */
+
+    .top2{
+        width: 90%;
+        height: 118px;
+        padding: 6px 10px;
+        box-sizing: border-box;
+        background-color: #e5f3d7; 
+        position: fixed;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px 3px #7e7e7e;
+        z-index: 10;
+    }
+
+    .top2-logo img{
+        width: 15%;
+        border-radius: 30px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .top2 ul{
+        float: none;
+    }
+
+    .top2 li{
+        float: left;
+        padding-left: 3px;
+        
+    }
+
+    .top2 ul a{
+        display: block;
+        padding: 0 5px;
+        text-align: center;
+        position: relative;
+        color: #101010;
+        font-size: 15px;
+        line-height: 50px;
+        /* border: 1px solid red; */
+    }
+
+    /* ===================================== */
+
+    .professional-main{
+        background-color: #fdf1c5;
+        padding: 150px 0;
+    }
+    
+    .professional-main ul{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .professional-main li{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        background-color: rgb(255, 255, 255);
+        border: 20px solid white;
+    }
+    
+    .professional-main img{
+        width: 370px;
+        margin-right: 5px;
+    }
+    
+    .professional-main h4{
+        display: block;
+        width: 600px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    
+    .professional-main .pro6 h4,.professional-main .pro7 h4{
+        height: 300px;
+        font-size: 18px;
+    }
+    
+    .pro6 img,.pro7 img{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .pro6,.pro7{
+        overflow: hidden;
+    }
+
+    /* ====================================== */
+
+    .por-main{
+        height: auto;
+        padding: 200px 0 100px 0;
+    }
+    
+    .por-main ul{
+        height: 100%;
+    }
+    
+    .por-main li{
+        height: 600px;
+        width: 400px;
+    }
+    /* ============ */
+    .por-main .picsk img{margin: 0;}
+    
+    .picsk{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .picsk .pic{
+        width: 90%;
+        height: 250px;
+    }
+    
+    .picsk .pic img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .picsk .picL{
+        bottom: 40px;
+    }
+    
+    .picsk .picR{
+        bottom: 40px;
+    }
+
+    /* ================================== */
+
+    .link-main{
+        background-color: #fdf1c5;
+        height: auto;
+        box-shadow: inset 0px 0px 30px 10px #7e7e7e;
+        padding-top: 200px;
+        padding-bottom: 80px;
+    }
+    
+    .link-main ul{
+        display: block;
+    }
+    
+    .link-main li{
+        height: 600px;
+        width: 300px;
+        display:block;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .link-main img{
+        width: 168px;
+        margin-top: 80px;
+        filter: drop-shadow(3px 11px 9px rgba(0, 0, 0, 0.7));
+    }
+    
+    .iga img,.pina img,.yta img{
+        width: 230px;
+        margin-top: 20px;
+    }
+
+
+}
+/* =========================RWD========================= */
+
+
+
