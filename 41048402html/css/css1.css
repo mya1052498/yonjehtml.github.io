@@ -574,6 +574,7 @@ body{
 
     .warpper{
         width: 100%;
+        overflow: hidden;
     }
 
     .top{
