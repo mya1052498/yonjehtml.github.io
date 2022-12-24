@@ -16,7 +16,7 @@ body{
     height: 90px;
     padding: 10px 13vw;
     box-sizing: border-box;
-    background-color: #e5f3d7;
+    background-color: #e4884d;
     position: fixed;
     z-index: 10;
     
@@ -44,7 +44,7 @@ body{
     padding: 0 15px;
     text-align: center;
     position: relative;
-    color: #101010;
+    color: #172120;
     font-size: 20px;
     line-height: 75px;
     /* border: 1px solid red; */
@@ -60,8 +60,8 @@ body{
     left: 0;
     margin: auto;
     box-sizing: border-box;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     width: 100%;
     height: 60%;
     transition: all 0.5s 0s ease;
@@ -76,8 +76,8 @@ body{
     left: 0;
     margin: auto;
     box-sizing: border-box;
-    border-left: 2px solid #000000;
-    border-right: 2px solid #000000;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
     width: 100%;
     height: 60%;
     transition: all 0.5s 0s ease;
@@ -108,7 +108,7 @@ body{
 
 .index-main{
     z-index: 1;
-    background-image: url("../img/wallpaper5.jpg");
+    background-image: url("../img/wallpaper1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50% 50%;
@@ -156,7 +156,7 @@ body{
 
 .about{
     height: 980px;
-    background-image: linear-gradient(to bottom, #000000 0%, #fdf1c5 2%,#fdf1c5 95%,#000000 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #2a4448 2%,#faa96f 95%,#000000 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,7 +260,7 @@ body{
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #e5f3d7;
+    background-color: #f9efc5;
     border: 5px solid white;
     border-radius: 50%;
     transition: background-color .5s 0.1s ease;
@@ -276,7 +276,7 @@ body{
     
 }
 .toTop:hover{
-    background-color: #4f801e;
+    background-color: #ffab56;
 }
 
 
@@ -310,7 +310,7 @@ body{
     height: 80px;
     padding: 6px 60px;
     box-sizing: border-box;
-    background-color: #e5f3d7; 
+    background-color: #e4884d; 
     position: fixed;
     right: 0;
     left: 0;
@@ -343,7 +343,7 @@ body{
     padding: 0 15px;
     text-align: center;
     position: relative;
-    color: #101010;
+    color: #172120;
     font-size: 20px;
     line-height: 75px;
     /* border: 1px solid red; */
@@ -359,8 +359,8 @@ body{
     left: 0;
     margin: auto;
     box-sizing: border-box;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     width: 100%;
     height: 60%;
     transition: all 0.5s 0s ease;
@@ -375,8 +375,8 @@ body{
     left: 0;
     margin: auto;
     box-sizing: border-box;
-    border-left: 2px solid #000000;
-    border-right: 2px solid #000000;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
     width: 100%;
     height: 60%;
     transition: all 0.5s 0s ease;
@@ -392,7 +392,7 @@ body{
 
 /* ==================Link的內容================== */
 .link-main{
-    background-color: #fdf1c5;
+    background-color: #2a4448;
     height: 976px;
     box-shadow: inset 0px 0px 30px 10px #7e7e7e;
 }
@@ -431,7 +431,7 @@ body{
 
 /* ==================professional專業能力的內容================== */
 .professional-main{
-    background-color: #fdf1c5;
+    background-color: #2a4448;
     padding: 150px 0;
 }
 
@@ -482,7 +482,7 @@ body{
 
 /* ==================作品集的內容================== */
 .por-main{
-    background-color: #fdf1c5;
+    background-color: #2a4448;
     height: auto;
     box-shadow: inset 0px 0px 30px 10px #7e7e7e;
     padding: 150px 0;
@@ -798,7 +798,7 @@ body{
     /* ===================================== */
 
     .professional-main{
-        background-color: #fdf1c5;
+        background-color: #2a4448;
         padding: 150px 0;
     }
     
@@ -891,7 +891,7 @@ body{
     /* ================================== */
 
     .link-main{
-        background-color: #fdf1c5;
+        background-color: #2a4448;
         height: auto;
         box-shadow: inset 0px 0px 30px 10px #7e7e7e;
         padding-top: 200px;
