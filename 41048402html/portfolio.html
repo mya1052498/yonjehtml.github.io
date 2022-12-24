@@ -28,24 +28,53 @@
         <!-- 上方選單 -->
         <div class="por-main">
 
+            <div class="picsk">
+                <div class="pic"><img src="img/sketch/0.png" alt="" id="pic"></div>
+                <a href="#" id="pic1" class="picL"><img src="img/goleft.png" alt=""></a>
+                <a href="#" id="pic2" class="picR"><img src="img/goright.png" alt=""></a>
+            </div>
             <ul>
                 <li data-aos="fade-up">
                     <img src="https://seeklogo.com/images/P/pinterest-logo-8561DDA2E1-seeklogo.com.png" alt=""width="100px">
                     <a href="https://www.pinterest.com/Yon_J324/digital-image-creation/" class="pina"><img src="img/QRpinterest.png" alt=""></a>
                 </li>
             </ul>
-
-            <div class="picsk">
-                <div class="pic"><img src="img/sketch/0.png" alt="" id="pic"></div>
-                <a href="#" id="pic1" class="picL"><img src="img/goleft.png" alt=""></a>
-                <a href="#" id="pic2" class="picR"><img src="img/goright.png" alt=""></a>
-            </div>
-
         </div>
     </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
 <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(function(){
+
+        var Pic = document.getElementById("pic");
+        var btnL = document.getElementById("pic1");
+        var btnR = document.getElementById("pic2");
+        var i = 0 ;
+        btnR.onclick = function(){
+            if(i<27){
+                i++;
+                Pic.src = "img/sketch/"+ i +".png";
+            }else{
+                i=0;
+                Pic.src = "img/sketch/"+ i +".png";
+            }
+            console.log(i);
+        }
+        btnL.onclick = function(){
+            if(i>0){
+                i++;
+                Pic.src = "img/sketch/"+ i +".png";
+            }else{
+                i=27;
+                Pic.src = "img/sketch/"+ i +".png";
+            }
+            console.log(i);
+        }
+
+
+})
+</script>
 </body>
 </html>
